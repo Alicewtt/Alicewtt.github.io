@@ -1,774 +1,359 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="content-language" content="zh-CN" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="keywords" content="婚纱   礼服    定制   私人定制   婚礼   新娘   婚庆
- 
-婚纱店    摄影    婚纱摄影    婚纱定制    敬酒    伴娘    晚礼服    花童   亲子   小黑裙    婚纱照     新娘发型   
- 
-演出 舞台  毕业   开" />
-    <meta name="description" content="SUNVARY，德国高级定制品牌。定位婚纱、晚礼服、酒会服、
- 
-亲子装的高级定制。品牌创立以来，设计团队始终秉持着传承创新领先的设计理念，致力于为用户量身定制时尚、经典、简洁的婚
- 
-" />
-    <meta name="author" content="杭州博采网络科技股份有限公司-高端网站建设-http://www.bocweb.cn" />
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>预约服务-德国SUNVARY 定制新时代婉约生活！</title>
-    <link href="http://121.41.128.239:8140/bfc_sunvary/favicon.ico" rel="shortcut icon">
-   <!--阿里妈妈MUX倾力打造的矢量图标管理、交流平台。
-       设计师将图标上传到Iconfont平台，用户可以自定义下载多种格式的icon，
-       平台也可将图标转换为字体，便于前端工程师自由调整与调用。-->
-    <link rel="stylesheet" href="http://iconfont.cn/webfont/#!/webfont/index">
-    <script>
-//        var STATIC_URL = "http://121.41.128.239:8140/bfc_sunvary/static/";
-        var GLOBAL_URL = "http://121.41.128.239:8140/bfc_sunvary/";
-        var UPLOAD_URL = "http://121.41.128.239:8140/bfc_sunvary/upload/";
-//        var SITE_URL   = "http://121.41.128.239:8140/bfc_sunvary/index.php/";
-    </script>
-    <link rel="stylesheet" href="http://121.41.128.239:8140/bfc_sunvary/static/web/css/reset.css?v=v1"
-          type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="http://121.41.128.239:8140/bfc_sunvary/static/web/css/style.css?v=v1"
-          type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="http://121.41.128.239:8140/bfc_sunvary/static/web/css/style_w.css?v=v1"
-          type="text/css" media="screen" charset="utf-8">
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/jQuery.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/jquery.easing.1.3.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/jquery.transit.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/html5.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/bocfe.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/plug.preload.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/web/js/adaptive-version2.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/web/js/touch.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script src="http://121.41.128.239:8140/bfc_sunvary/static/js/lhgcalendar.min.js?v=v1"
-            type="text/javascript" charset="utf-8">
-    </script>
-    <script>
-    window['adaptive'].desinWidth =750;
-    window['adaptive'].init();
-    $(function(){
-        $(".header .click").click(function(){
-            $(".header form").slideDown();
-            $(this).parent(".header").siblings(".ban-app").css({
-                "margin-top":"2rem"})
-        });
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>2次补充升级版作业</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-        $(".cnav .hide").click(function(){
-            $(this).parent(".cnav").slideUp();
-        });
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="js/jquery-1.9.0.min.js"></script>
 
-        $(".header .nav-btn").click(function(){
-            $(".cnav").slideDown();
-        });
-
-        $(".cnav li a.a1").click(function(){
-            if ($(this).hasClass('cur')) {
-                $(this).removeClass('cur');
-                $(this).siblings('.second').slideUp();
-            }else{
-                $(this).addClass('cur');
-                $(this).siblings('.second').slideDown();
-            }
-
-        });
-
-        $(document).mouseup("click",function(e){
-            var _con = $('form');//这个目标区域就是弹框
-            if(!_con.is(e.target) && _con.has(e.target).length === 0){
-                // $(".click-z").hide();
-                $(".header form").slideUp();
-                $(this).parent(".header").siblings(".ban-app").css({
-                    "margin-top":"1.2rem"})
-            }
-        });
-
-        // $("form .click-z input").click(function(){
-        // 	$(this).css({color:"#000"}{"background": "#fff"})
-        // })
-        $('#tijiao').click(function(){
-            $('#ti').submit();
-        })
-    })
-
-</script>
 
     <style>
-    .ab-nav a{
-        /*margin-right: 30%;*/
-        padding-right: 9%;
-    }
-    .ab-nav .w866{
-        width: 295px;
-    }
-</style>
+        body{
+            padding-top: 70px;
+        }
+        .navbar-brand img{
+            margin-top: -22px;
+        }
+        .btn-warning{
+            margin-left: 20px;
+        }
+        .dropdown-header{
+            color: #0000ff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .thumbnail img{
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+        }
+        /*轮播图片的修饰*/
+        .carousel-inner .item>img{
+            width: 100% !important;/*优先级最高*/
+            width: 100px;
+            height: 400px;
+
+        }
+    </style>
 </head>
 <body>
-<div class="wrap">
-<header>
-    <div class="hd-wel">
-        <div class="w1200 f-cb">
-            <div class="fl">
-                <div class="cla3 f12">欢迎登录德国SUNVARY官方平台！品牌服务热线：4008-5050-90</div>
-            </div>
-            <div class="fr">
-                <a href="http://weibo.com/u/5974122102?refer_flag=1001030103_&is_hot=1#_loginLayer_1469782661883" target="_blank" class="wb">官方微博</a>
-                <a href="javascript:;" class="wx">官方微信</a>
-            </div>
-        </div>
-    </div>
-    <div class="hd-logo">
-        <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/welcome ">
-            <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/logo_03.png?v=v1 " alt="" width="78" height="80">
-        </a>
-    </div>
-
-    <!-- pc nav-->
-    <div class="hd-nav f-cb">
-        <div class="fl nav-logo">
-            <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/welcome ">
-                <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/3_03.png?v=v1 " alt="" width="100%s">
-            </a>
-        </div>
-        <div class="nav fl">
-            <div class="f-cb pl5 pr5 w90">
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/welcome ">首页</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/app ">APP介绍</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product1 ">婚纱</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product2 ">婚礼礼服</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products ">晚礼服</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product3 ">配饰</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/brand ">品牌店</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/reservation ">预约服务</a>
-                <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/distributor ">加盟服务</a>
+<!--顶部导航栏-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-menu">
+            <!--icon-bar:线，默认在右边-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--LOGO-->
+        <div class="navbar-header">
+            <div class="navbar-brand"><!--保存图片-->
+                <img src="img/j_logo.gif">
             </div>
         </div>
-        <div class="nav-search fr">
-            <div class="f-cb">
-                <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/search" enctype="#" id="frm-apply" name="frm-apply" method="get" accept-charset="utf-8" class="form-horizontal">				<input type="text" class="fl" name="search">
-                    <input type="submit" value="" class="fl" onclick="window.location.href='http://121.41.128.239:8140/bfc_sunvary/index.php/search '">
-                </form>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="header">
-    <div class="header-inner">
-        <div class="ser">
-            <div class="click"></div>
-        </div>
-        <div class="logo">
-            <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/welcome ">
-                <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/logo.png?v=v1 " alt="">
-            </a>
-        </div>
-        <div class="nav-btn"><img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/menu.png?v=v1 " alt=""></div>
-        <div class="cnav" style="display: none;overflow: auto;">
-            <div class="hide"><img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/jian.png?v=v1 " alt=""></div>
-            <ul class="f-cb">
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/welcome ">首页</a>
+        <!--菜单-->
+        <div class="collapse navbar-collapse" id="my-menu">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown">News<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Domestic</a></li>
+                        <li><a href="#">Intemational</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Ecomonics</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/app ">APP介绍</a>
-                </li>
-                <li>
-                    <a class="cclick a1" href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product1">婚纱</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product2">婚礼礼服</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/products">晚礼服</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product3">配饰</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/brand">品牌店</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/reservation">预约服务</a>
-                </li>
-                <li>
-                    <a class="cclick" href="http://121.41.128.239:8140/bfc_sunvary/index.php/distributor">加盟服务</a>
-                </li>
+                <li><a href="#">Contact</a></li>
             </ul>
+            <!--搜索框 -->
+            <form class="navbar-form navbar-left">
+                <div class="form-group input-group">
+                    <label class="sr-only">搜索关键字</label>
+                    <input type="text" class="form-control" placeholder="keywords">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default">
+                                        <span  class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                </div>
+            </form>
+            <!--按钮-->
+            <button class="btn btn-warning btn-sm navbar-btn navbar-right"
+                    data-target="#my-login" data-toggle="modal">Login</button>
+            <button type="button" class="btn btn-info btn-sm navbar-btn navbar-right"
+                data-target="#my-register" data-toggle="modal">Register</button>
         </div>
     </div>
-    <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/search" method="get" id="ti">
-        <div class="input"><input name="search" type="text" placeholder="Enter a style # or collection..."></div>
-        <div class="click-z"><input id="tijiao" type="submit" value="走"></div>
-    </form>
 </div>
+<!--第一部分的显示，上下关系-->
+<div id="body-connect"></div>
+<!--第二部分的显示，上下关系-->
+<div id="body-second"></div>
+
+<!--登录的模态框-->
+<div class="modal fade" id="my-login">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>聚美优品欢迎您,请登录</h1>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-group">
+                            <label class="control-label" for="uname1">用户名</label>
+                            <input type="text" placeholder="金主粑粑..." name="uname1"
+                                   id="uname1" class="form-control" autofocus>
+                            <p class="help-block">用户名可以包含数字、字母、下划线</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="password1">密码</label>
+                            <input type="password" placeholder="密码=>Money..." name="password1"
+                                   id="password1" class="form-control">
+                            <p class="help-block">密码长度为6~12,包含数字、下划线</p>
+                            <label for="togglePassword1" style="float: right;margin-left: 10px;"><input type="checkbox" id="togglePassword1">显示密码</label>
+                            <label for="remember1" style="float: right"><input type="checkbox" id="remember1">记住密码</label>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success">确定</button>
+                <button class="btn btn-danger">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--注册的模态框-->
+<div class="modal fade" id="my-register" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1>欢迎来到聚美优品,请注册</h1>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form>
+                        <div class="form-group">
+                            <label class="control-label" for="uname">用户名</label>
+                            <input type="text" placeholder="金主粑粑..." name="uname"
+                                   id="uname" class="form-control" autofocus>
+                            <p class="help-block">用户名可以包含数字、字母、下划线</p>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="password">密码</label>
+                            <input type="password" placeholder="密码=>Money..." name="password"
+                                   id="password" class="form-control">
+                            <p class="help-block">密码长度为6~12,包含数字、下划线</p>
+                            <label for="togglePassword" style="float: right;margin-left: 10px;"><input type="checkbox" id="togglePassword">显示密码</label>
+                            <label for="remember" style="float: right"><input type="checkbox" id="remember">记住密码</label>
 
 
-<div class="ewmbox">
-    <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/ewm.jpg?v=v1 " alt="" width="200" height="200">
-    <div class="clo">×</div>
+                        </div>
+                        <div class="form-group" style="margin-top:20px">
+                            <label>
+                                <input type="checkbox" onclick="document.getElementById('register_btn').disabled=!this.checked" id="checkbox">我同意本站的使用条款
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success"
+                        disabled="disabled" id="register_btn">提交</button>
+                <button class="btn btn-danger">取消</button>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.toggle-password.js"></script>
 <script>
-    $(window).scroll(function() {
-        if($(window).scrollTop()>100){
-            $(".hd-nav .nav-logo").fadeIn();
-            $(".hd-nav .nav-search").fadeIn();
-            $(".hd-logo").hide();
-            $(".hd-wel").hide();
-            $(".hd-nav .nav").css({
-                float:"left"
-            });
-            $(".hd-nav .nav .w90").css({
-                width: 90+"%",
-                paddingLeft:5+"%",
-                paddingRight:5+"%"
-            });
-            $("header").addClass('pos-fixed');
-            $("header .hd-nav").css("background","#212121 url(http://121.41.128.239:8140/bfc_sunvary/static/web/img/1_03.png?v=v1 ) repeat-x top left");
-            $(".hd-nav .nav a").css("color","#fff")
+    //注册的异步请求
+    //判断用户名是否可以注册，需要异步查询数据库，如果未查询到，那么提示此用户名可注册
+    $("#uname").blur(function(){
+        //发生ajax请求，验证用户名是否可用
+        //        判断用户名是否符合要求:10个字符以内的字母、数字或者下划线的组合
+        //        alert("注册的提示");
+        var uname=$("#uname").val();
+        if(uname==""){
+            $("#uname").siblings(".help-block").text("长点心吧,用户名不能为空");
+            $("#uname").parent().addClass("has-error");
+        }else if(uname.length>10){
+            $("#uname").siblings(".help-block").text("大长脸不好看！");
+            $("#uname").parent().addClass("has-error");
         }else{
-            $(".hd-nav .nav-logo").hide();
-            $(".hd-nav .nav-search").hide();
-            $(".hd-logo").show();
-            $(".hd-wel").show();
-            $(".hd-nav .nav").css({
-                float:"none"
-            });
-            $(".hd-nav .nav .w90").css({
-                width: 70+"%",
-                paddingLeft:15+"%",
-                paddingRight:15+"%"
-            });
-            $("header").removeClass('pos-fixed');
-            $("header .hd-nav").css("background","#f7f7f7 url(http://121.41.128.239:8140/bfc_sunvary/static/web/img/1_03.png?v=v1 ) repeat-x top left")
-            $(".hd-nav .nav a").css("color","#222")
+            var regexp=/^\w{1,10}$/;
+            var b=regexp.test(uname);
+            if(b==true){
+                $.getJSON('submit_name.php',{uname:uname}, function (data) {
+                    if(data.code==0){
+                        $("#uname").siblings(".help-block").text("您真能,可注册");
+                        $("#uname").parent().removeClass("has-error").addClass("has-success");
+                    }else if(data.code==1){
+                        $("#uname").siblings(".help-block").text("已经有人先你一步");
+                        $("#uname").parent().addClass("has-error");
+                    };
+                })
+            }else{
+                $("#uname").siblings(".help-block").text("不能有汉字，我们要国际化");
+                $("#uname").parent().addClass("has-error");
+            }
         }
     });
-</script>
-
-<script>
-    $(".footer .ft-t dl:last").css("margin-right","0");
-    $(".wx").click(function(event) {
-        $(".ewmbox").show();
+    //注册时判断密码是否符合要求:6~12个字符以内的字母、数字或者下划线的组合
+    //判断密码是否符合要求
+    $("#password").blur(function(){
+        var pwd=$("#password").val();
+        if(pwd==""){
+            $("#password").siblings(".help-block").text("你看看看看，密码不能为空");
+            $("#password").parent().addClass("has-error");
+        }else{
+            var regexp1=/^\d{6,12}$/;
+            var regexp2=/^\w{6,12}$/;
+            var d1=regexp1.test(pwd);
+            var d2=regexp2.test(pwd);
+            if(d1==true){
+                $("#password").siblings(".help-block").html("密码太简单不安全,请设置again" +
+                        "<button class='btn btn-warning' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-warning' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-warning' style='padding: 5px 7px;margin-left: 5px'></button>");
+                $("#password").parent().removeClass("has-error").removeClass("has-success").addClass("has-warning");
+            }else if(d2==true){
+                $("#password").siblings(".help-block").html("密码安全级别高,请牢记" +
+                        "<button class='btn btn-success' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-success' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-success' style='padding: 5px 7px;margin-left: 5px'></button>");
+                $("#password").parent().removeClass("has-error").removeClass("has-warning").addClass("has-success");
+            }else{
+                $("#password").siblings(".help-block").html("密码设置不合格,请设置again" +
+                        "<button class='btn btn-danger' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-danger' style='padding: 5px 7px;margin-left: 5px'></button>" +
+                        "<button class='btn btn-danger' style='padding: 5px 7px;margin-left: 5px'></button>");
+                $("#password").parent().removeClass("has-success").removeClass("has-warning").addClass("has-error");
+            }
+        }
     });
-    $(".ewmbox .clo").click(function(event) {
-        $(".ewmbox").hide();
+
+    //登录的异步请求
+    //判断用户名是否可以登录，需要异步查询数据库，如果未查询到，那么提示此用户名需要进行注册
+    $("#uname1").blur(function(){
+        var uname=$("#uname1").val();
+        $.getJSON('submit_name.php',{uname:uname}, function (data) {
+            if(data.code==0){
+                $("#uname1").siblings(".help-block").text("来了留个脚印，前边请注册");
+                $("#uname1").parent().addClass("has-error");
+            }else if(data.code==1){
+                $("#uname1").siblings(".help-block").text("哈哈哈，来对了...");
+                $("#uname1").parent().removeClass("has-error").addClass("has-success");
+            };
+        });
+    });
+    //登录时判断密码是否一致和设置的
+    $("#password1").blur(function(){
+        var pwd=$("#password1").val();
+        $.getJSON('submit_pwd.php',{pwd:pwd}, function (data) {
+            if(data.code==0){
+                $("#password1").siblings(".help-block").text("呃呃呃，You are wrong");
+                $("#password1").parent().addClass("has-error");
+            }else if(data.code==1){
+                $("#password1").siblings(".help-block").text("呦呦呦，您还记得呢");
+                $("#password1").parent().removeClass("has-error").addClass("has-success");
+            };
+        })
     });
 
-
-</script>
-<div class="ab-ban">
-    <img src="http://121.41.128.239:8140/bfc_sunvary/upload/2016/08/09/14707551517925ibc45.jpg " alt="" width="100%">
-    <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/j2_03.png?v=v1 " alt="" class="poa">
-    <div class="introduction">
-        <div class="en f64 clf">Booking Service</div>
-        <div class="xmt cle f22">预约服务</div>
-    </div>
-</div>
-<div class="ab-nav">
-    <div class="f-cb w866">
-        <a href="javascript:;">
-            <div class="cl0 f13">Reservation </div>
-            <div class="cl0 f12">预约进店试纱</div>
-        </a>
-        <a href="javascript:;">
-            <div class="cl0 f13">measurement</div>
-            <div class="cl0 f12">上门测量预约</div>
-        </a>
-    </div>
-</div>
-<div class="ajax-join join-a" style="background:#f8f8f8;">
-    <div class="f36 cl0 xmt pt60">预约进店试纱</div>
-    <div class="xmt f14 cl6 w666">
-        <p>为了让您挑选到心仪的婚纱/礼服，成为全场瞩目的焦点，欢迎您到SUNVARY南京体验店预约试纱，同时我们有专业的</p>
-    </div>
-    <div class="reser reser-pc">
-        <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/feedback/post" enctype="#" id="frm-apply" name="frm-apply" method="post" accept-charset="utf-8" class="form-horizontal form1"><div style="display:none">
-            <input type="hidden" name="_scfs" value="63fe91926e3b053b199ad373a8dacae1" />
-        </div>					<table>
-            <input type="hidden" name="title" value="预约进店试纱">
-            <tr>
-                <td>
-                    <div class="f18 cl3 xmt">姓名</div>
-                    <input type="text" id="username" name="username">
-                </td>
-                <td>
-                    <div class="f18 cl3 xmt">联系电话</div>
-                    <input type="text" id="tel" name="tel">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="f18 cl3 xmt">预约时间</div>
-                    <input id="d11" type="text" onClick="WdatePicker()"/>
-                </td>
-                <td>
-                    <div class="f18 cl3 xmt">备注</div>
-                    <input type="text" id="content" name="content">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" class="submit1" value="提交" style="width:47%">
-                </td>
-            </tr>
-        </table>
-        </form>
-    </div>
-
-    <div class="reser reser-ms">
-        <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/feedback/post" enctype="#" id="frm-apply" name="frm-apply" method="post" accept-charset="utf-8" class="form-horizontal form1"><div style="display:none">
-            <input type="hidden" name="_scfs" value="63fe91926e3b053b199ad373a8dacae1" />
-        </div>					<table>
-            <input type="hidden" name="title" value="预约进店试纱">
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">姓名</div>
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="username3" name="username"></td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">联系电话</div>
-
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="tel3" name="tel">
-                </td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">预约时间</div>
-
-                </td>
-                <td style="width:70%">
-                    <input id="d13" type="text" onClick="WdatePicker()"/>
-                </td>
-
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">备注</div>
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="content" name="content">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;">
-                    <input type="submit" class="submit3" value="提交" style="width:100%">
-                </td>
-            </tr>
-        </table>
-        </form>
-    </div>
-
-</div>
-<div class="ajax-join join-b" style="background:#f8f8f8;">
-    <div class="f36 cl0 xmt pt60">上门测量预约</div>
-    <div class="xmt f14 cl6 w666">
-        <p>为了让您挑选到心仪的婚纱/礼服，成为全场瞩目的焦点，欢迎您到SUNVARY南京体验店预约试纱，同时我们有专业的</p>
-    </div>
-    <div class="reser reser-pc">
-        <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/feedback/post" enctype="#" id="frm-apply" name="frm-apply" method="post" accept-charset="utf-8" class="form-horizontal form2"><div style="display:none">
-            <input type="hidden" name="_scfs" value="63fe91926e3b053b199ad373a8dacae1" />
-        </div>					<table>
-            <input type="hidden" name="title" value="上门测量预约">
-            <tr>
-                <td>
-                    <div class="f18 cl3 xmt">姓名</div>
-                    <input type="text" id="username1" name="username">
-                </td>
-                <td>
-                    <div class="f18 cl3 xmt">手机号码</div>
-                    <input type="text" id="tel1" name="tel">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="f18 cl3 xmt">预约时间</div>
-                    <!-- <input id="time1" name="time"  onclick="WdatePicker()" > -->
-                    <input id="d12" type="text" onClick="WdatePicker()"/>
-                </td>
-                <td>
-                    <div class="f18 cl3 xmt">详细地址</div>
-                    <input type="text" id="addr1" name="addr">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="f18 cl3 xmt">备注</div>
-                    <input type="text" id="content1" name="content">
-                </td>
-                <td>
-                    <div class="f18 cl3 xmt"></div>
-                    <input type="submit" value="提交" class="submit2" style="margin-top:37px">
-                </td>
-            </tr>
-        </table>
-        </form>
-    </div>
-
-    <div class="reser reser-ms">
-        <form action="http://121.41.128.239:8140/bfc_sunvary/index.php/feedback/post" enctype="#" id="frm-apply" name="frm-apply" method="post" accept-charset="utf-8" class="form-horizontal form2"><div style="display:none">
-            <input type="hidden" name="_scfs" value="63fe91926e3b053b199ad373a8dacae1" />
-        </div>					<table>
-            <input type="hidden" name="title" value="上门测量预约">
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">姓名</div>
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="username4" name="username">
-                </td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">手机号码</div>
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="tel4" name="tel">
-                </td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">预约时间</div>
-
-                </td>
-                <td style="width:70%">
-                    <input id="d14" type="text" onClick="WdatePicker()"/>
-                </td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">详细地址</div>
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="addr4" name="addr">
-                </td>
-            </tr>
-            <tr>
-                <td style="width:30%">
-                    <div class="f18 cl3 xmt">备注</div>
-
-                </td>
-                <td style="width:70%">
-                    <input type="text" id="content1" name="content">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" style="text-align:center;">
-                    <input type="submit" class="submit4" value="提交" style="width:47%">
-                </td>
-            </tr>
-        </table>
-        </form>
-    </div>
-    <p class="f14 cl6 xmt cel">*上门测量服务目前仅限南京市区</p>
-</div>
-<div class="scroll-top">
-    <img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/q3_07.png?v=v1 " alt="" width="50" height="50">
-</div>
-<script>
-    $(".scroll-top img").click(function(event) {
-        /* Act on the event */
-        $("body,html").animate({scrollTop:0},600);
+    //注册提交按钮处理
+    $("button:contains('提交')").click(function(){
+        //        判断用户名是否符合要求:10个字符以内的字母、数字或者下划线的组合
+        var uname=$("#uname").val();
+        var pwd=$("#password").val();
+        var msg1=$("#uname").siblings(".help-block").text();
+        var msg2=$("#password").siblings(".help-block").text();
+        if(msg1=="您真能,可注册"&&msg2=="密码安全级别高,请牢记"){
+            $.getJSON('register.php',{uname:uname,pwd:pwd}, function (data) {
+                if(data.code==1){
+                    alert("恭喜您注册成功，点此进入主页");
+                    //恢复注册页面原样
+                    $("#uname").val("");
+                    $("#password").val("");
+                    $("#checkbox").removeAttr("checked");
+                    $("#uname").parent().removeClass("has-success");
+                    $("#password").parent().removeClass("has-success");
+                    $("#uname").siblings(".help-block").text("用户名可以包含数字、字母、下划线");
+                    $("#password").siblings(".help-block").text("密码长度为6~12,包含数字、下划线");
+                    $("#my-register").modal("hide");
+                    $("#body-connect").load("body_after.php");
+                    $("#body-second").load("body_second_after.php");
+                };
+            });
+        }else{
+            alert("请检查您的用户信息是否填写正确");
+        };
     });
-</script>	    <footer>
-    <div class="footer">
-        <div class="ft-t f-cb">
-            <div class="fl fll">
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product1 ">婚纱</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/7/1 ">2016新款</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/7/2 ">2017春季新款</a></dd>
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product2 ">婚礼礼服</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/9/9 ">伴娘服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/9/13 ">敬酒礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/9/14 ">妈妈装</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/9/15 ">花童礼服</a></dd>
+    //登录确定按钮处理
+    $("button:contains('确定')").click(function(){
+        var uname=$("#uname1").val();
+        var pwd=$("#password1").val();
+        $.getJSON('login.php', {uname:uname,pwd:pwd}, function (data) {
+            if(data.code==1){
+                alert("恭喜您登录成功，点此进入主页");
+                //恢复登录页面原样
+                $("#uname1").val("");
+                $("#password1").val("");
+                $("#uname1").parent().removeClass("has-success");
+                $("#password1").parent().removeClass("has-success");
+                $("#uname1").siblings(".help-block").text("用户名可以包含数字、字母、下划线");
+                $("#password1").siblings(".help-block").text("密码长度为6~12,包含数字、下划线");
+                $("#my-login").modal("hide");
+                $("#body-connect").load("body_after.php");
+                $("#body-second").load("body_second_after.php");
+            }else{
+                alert("您的用户名或密码输入错误，请重新输入");
+            };
+        });
+    });
+    //点击取消处理事件
+    $("button:contains('取消')").click(function(){
+        //modal('hide'):慢慢隐藏
+        $("#my-login").modal("hide");
+        $("#my-register").modal("hide");
+    });
+    //参加活动的处理事件
+//    $.each($("button:contains('了解详情')"),function(i,e){
+//        console.log(i);
+//        console.log(e);
+//        alert("触发了解详情事件");
+////            var img=$(this).siblings("img");
+////            console.log(img);
+////            $(this).siblings("img").css({
+////                width:600,
+////                height:500
+////            });
+//    });
 
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products ">晚礼服</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/4 ">晚礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/5 ">酒会礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/6 ">鸡尾酒礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/7 ">亲子礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/8 ">毕业礼服</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/11 ">小黑裙</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/8/12 ">演出服</a></dd>
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/product3 ">配饰</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/products/list/10/10 ">手套</a></dd>
-
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/brand ">品牌店</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/brand ">旗舰店展示</a></dd>
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/reservation ">预约服务</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/reservation ">进店试纱</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/reservation ">上门量体</a></dd>
-                </dl>
-                <dl>
-                    <dt><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/distributor ">加盟服务</a></dt>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/distributor ">经销商加盟</a></dd>
-                    <dd><a href="http://121.41.128.239:8140/bfc_sunvary/index.php/distributor ">设计师加盟</a></dd>
-                </dl>
-            </div>
-            <div class="fr frr" style="text-align:center;">
-                <div class="cla3" style="margin-bottom:30px;font-size:16px;">安装APP移动端开启私人定制之旅</div>
-                <div class="f-cb">
-                    <div class="fl">
-                        <img src="http://121.41.128.239:8140/bfc_sunvary/upload/2016/09/20/147436094571k1cgp.jpg " alt="" width="100" height="100">
-                        <p class="f12 cla3" style="font-size:12px;margin-top:6px;margin-bottom:20px;">IOS安装二维码</p>
-                    </div>
-                    <div class="fr">
-                        <img src="http://121.41.128.239:8140/bfc_sunvary/upload/2016/09/20/147436073121ejwom.jpg " alt="" width="100" height="100">
-                        <p class="f12 cla3" style="font-size:12px;margin-top:5px;margin-bottom:20px;">安卓安装二维码</p>
-                    </div>
-                </div>
-                <div class="f-cb">
-                    <div class="fl">
-                        <img src="http://121.41.128.239:8140/bfc_sunvary/upload/2016/09/20/147436117759f2ne5.jpg " alt="" width="100" height="100">
-                        <p class="f12 cla3" style="font-size:12px;margin-top:6px;margin-bottom:20px;">关注微信公众号</p>
-                    </div>
-                    <div class="fr">
-                        <img src="http://121.41.128.239:8140/bfc_sunvary/upload/2016/09/20/14743614309m2t61.jpg " alt="" width="100" height="100">
-                        <p class="f12 cla3" style="font-size:12px;margin-top:5px;margin-bottom:20px;">关注官方微博</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="ft-mt">
-            <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/intro ">关于SUNVARY</a>
-            <em>|</em>
-            <a href="http://121.41.128.239:8140/bfc_sunvary/index.php/job ">人才招聘</a>
-            <em>|</em>
-            <a href="javascript:;">全国免费服务热线：4008505090</a>
-        </div>
-        <div class="ft-bot">
-            <div class="f-cb">
-                <div class="fl">
-                    <p>Copyright ©德国sunvary版权所有<a target="_blank" title="网站建设" href="http://www.bocweb.cn/" class="t-c">网站建设</a>：<a target="_blank" title="网站建设" href="http://www.bocweb.cn/">博采网络</a></p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260093667'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260093667%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<div class="footer-ms">
-    <div class="foo-inner">
-        <table>
-            <tr style="width:100%;height:0.85rem;vertical-align: middle;">
-                <td style="width:33.333%;text-align: center;">
-                    <a href=""><img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/wb.png?v=v1 " alt=""></a>
-                </td>
-                <td style="width:33.333%;text-align: center;">
-                    <a href=""><img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/qq.png?v=v1 " alt=""></a>
-                </td>
-                <td style="width:33.333%;text-align: center;">
-                    <a href=""><img src="http://121.41.128.239:8140/bfc_sunvary/static/web/img/wx.png?v=v1 " alt=""></a>
-                </td>
-            </tr>
-            <tr style="width:100%;height:0.55rem;vertical-align: middle;">
-                <td style="width:33.333%;text-align: center;"><span></span></td>
-                <td style="width:33.333%;text-align: center;"><span></span></td>
-                <td style="width:33.333%;text-align: center;"><span></span></td>
-            </tr>
-            <tr style="width:100%;height:0.55rem;vertical-align: middle;">
-                <td style="width:33.333%;text-align: center;">APP介绍页</td>
-                <td style="width:33.333%;text-align: center;">人才招聘</td>
-                <td style="width:33.333%;text-align: center;">免费热线</td>
-            </tr>
-        </table>
-
-    </div>
-    <div class="copy">
-        <p>Copyright ©2016 江苏圣梵瑞电子商务有限公司版权所有</p>
-    </div>
-</div>	</div>
-<script src="http://121.41.128.239:8140/bfc_sunvary/static/web/js/main.js?v=v1" type="text/javascript" charset="utf-8"></script><script src="http://121.41.128.239:8140/bfc_sunvary/static/web/My97DatePicker/WdatePicker.js?v=v1" type="text/javascript" charset="utf-8"></script><script type="text/javascript">
+    //注册时密码的显示
     $(function(){
-        $("#leaveoute").calendar({minDate:'#liveins'});
-        $("#liveins").calendar({ maxDate:'#leaveoute'});
-    })
+        $('#password').togglePassword({
+            el: '#togglePassword'
+        });
+        //登录的显示密码
+        $('#password1').togglePassword({
+            el: '#togglePassword1'
+        });
+    });
 </script>
-<script>
-    $(function(){
-        hover(7);
-        $(".ab-nav a").eq(0).click(function(event) {
-            /* Act on the event */
-            $(this).addClass('on').siblings().removeClass('on');
-            $(".join-a").show();
-            $(".join-b").hide();
-        });
-        $(".ab-nav a").eq(1).click(function(event) {
-            /* Act on the event */
-            $(this).addClass('on').siblings().removeClass('on');
-            $(".join-a").hide();
-            $(".join-b").show();
-        });
 
-
-        cur(0);
-        $(".join-a td").each(function(index, el) {
-            if((index+1)%2==0)	{
-                $(this).css("padding-right","0")
-            }
-        });
-        $(".join-b td").each(function(index, el) {
-            if((index+1)%2==0)	{
-                $(this).css("padding-right","0")
-            }
-        });
-        $(".ab-nav a:last").css("margin-right","0")
-        $(".join-a td:last").css("padding-right","0")
-        $('.submit1').click(function(){
-            if($('#username').val()==""){
-                alert("姓名不得为空");
-                $('#username').focus();
-                return false;
-            }
-            if($("#tel").val()==""){
-                alert("电话不得为空");
-                $('#tel').focus();
-                return false;
-            }else{
-                var r=/^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
-                if(!r.test($('#tel').val())){
-                    alert("电话格式不正确");
-                    $('#tel').focus();
-                    return false;
-                }
-            }
-            if($('#d11').val()==""){
-                alert("预约时间不得为空");
-                $('#d11').focus();
-                return false;
-            }
-            $(".form1").submit();
-
-        })
-
-        $('.submit3').click(function(){
-            if($('#username3').val()==""){
-                alert("姓名不得为空");
-                $('#username3').focus();
-                return false;
-            }
-            if($("#tel3").val()==""){
-                alert("电话不得为空");
-                $('#tel3').focus();
-                return false;
-            }else{
-                var r=/^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
-                if(!r.test($('#tel3').val())){
-                    alert("电话格式不正确");
-                    $('#tel3').focus();
-                    return false;
-                }
-            }
-            if($('#d13').val()==""){
-                alert("预约时间不得为空");
-                $('#d13').focus();
-                return false;
-            }
-            $(".form1").submit();
-
-        })
-
-        $('.submit2').click(function(){
-            if($('#username1').val()==""){
-                alert("姓名不得为空");
-                $('#username1').focus();
-                return false;
-            }
-            if($("#tel1").val()==""){
-                alert("电话不得为空");
-                $('#tel1').focus();
-                return false;
-            }else{
-                var r=/^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
-                if(!r.test($('#tel1').val())){
-                    alert("电话格式不正确");
-                    $('#tel1').focus();
-                    return false;
-                }
-            }
-            if($('#d12').val()==""){
-                alert("预约时间不得为空");
-                $('#d12').focus();
-                return false;
-            }
-            if($('#addr1').val()==""){
-                alert("地点不得为空");
-                $('#addr1').focus();
-                return false;
-            }
-            $(".form2").submit();
-            return false;
-        })
-
-        $('.submit4').click(function(){
-            if($('#username4').val()==""){
-                alert("姓名不得为空");
-                $('#username4').focus();
-                return false;
-            }
-            if($("#tel4").val()==""){
-                alert("电话不得为空");
-                $('#tel4').focus();
-                return false;
-            }else{
-                var r=/^((0\d{2,3}-\d{7,8})|(1[3584]\d{9}))$/;
-                if(!r.test($('#tel4').val())){
-                    alert("电话格式不正确");
-                    $('#tel4').focus();
-                    return false;
-                }
-            }
-            if($('#d14').val()==""){
-                alert("预约时间不得为空");
-                $('#d14').focus();
-                return false;
-            }
-            if($('#addr4').val()==""){
-                alert("地点不得为空");
-                $('#addr4').focus();
-                return false;
-            }
-            $(".form2").submit();
-            return false;
-        })
-    })
-</script>
 </body>
 </html>
